@@ -16,10 +16,6 @@ Documents for this library.
 
 Watch modification of source and test cases, then run `phpunit`:
 
-```bash
-$ gulp phpunit
-```
-
 ## License
 
 MIT
