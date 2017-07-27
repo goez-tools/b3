@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests;
+
 use Ns\Example;
 use PHPUnit\Framework\TestCase;
 
