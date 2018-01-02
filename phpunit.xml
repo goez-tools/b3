@@ -5,6 +5,7 @@
          beStrictAboutCoversAnnotation="true"
          beStrictAboutOutputDuringTests="true"
          beStrictAboutTodoAnnotatedTests="true"
+         printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
          verbose="true">
     <testsuite>
         <directory suffix="Test.php">tests</directory>

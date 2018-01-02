@@ -4,7 +4,7 @@ watch:
     - tests
   fileMask: '*.php'
 notifications:
-  passingTests: false
-  failingTests: false
+  passingTests: true
+  failingTests: true
 phpunit:
   arguments: '--stop-on-failure'
