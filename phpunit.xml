@@ -7,7 +7,7 @@
          beStrictAboutTodoAnnotatedTests="true"
          printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
          verbose="true">
-    <testsuite>
+    <testsuite name="Lib">
         <directory suffix="Test.php">tests</directory>
     </testsuite>
 
