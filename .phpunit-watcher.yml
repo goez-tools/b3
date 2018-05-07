@@ -6,5 +6,5 @@ watch:
 notifications:
   passingTests: true
   failingTests: true
-phpunit:
-  arguments: '--stop-on-failure'
+#phpunit:
+#  arguments: '--stop-on-failure'

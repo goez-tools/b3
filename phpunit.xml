@@ -5,6 +5,7 @@
          beStrictAboutCoversAnnotation="true"
          beStrictAboutOutputDuringTests="true"
          beStrictAboutTodoAnnotatedTests="true"
+         colors="true"
          printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
          verbose="true">
     <testsuite name="Lib">
