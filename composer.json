@@ -29,6 +29,7 @@
     }
   },
   "scripts": {
+    "test": "vendor/bin/phpunit",
     "watch": "vendor/bin/phpunit-watcher watch"
   },
   "config": {
