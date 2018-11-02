@@ -15,10 +15,11 @@
     "roave/security-advisories": "dev-master",
     "phpunit/phpunit": "^6.0|^7.0",
     "mockery/mockery": "^1.0",
-    "spatie/phpunit-watcher": "^1.6",
     "codedungeon/phpunit-result-printer": "^0.20"
   },
   "suggest": {
+    "spatie/phpunit-watcher": "Automatically rerun PHPUnit tests when source code changes (Install globally)",
+    "mikey179/vfsStream": "Virtual file system to mock the real file system in unit tests.",
     "orchestra/testbench": "Laravel Testing Helper for Packages Development"
   },
   "autoload": {
