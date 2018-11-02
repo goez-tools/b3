@@ -14,10 +14,22 @@ Documents for this library.
 
 ## Hacking
 
+Install `spatie/phpunit-watcher` globally:
+
+```bash
+composer global require spatie/phpunit-watcher
+```
+
 Watch modification of source and test cases, then run:
 
 ```bash
-composer run watch
+phpunit-watcher watch
+```
+
+Just run test cases:
+
+```bash
+vendor/bin/phpunit
 ```
 
 ## License
