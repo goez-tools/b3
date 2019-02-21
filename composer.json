@@ -1,6 +1,7 @@
 {
   "name": "goez/b3",
   "description": "A skeleton for building composer based library",
+  "type": "library",
   "authors": [
     {
       "name": "Your Name",
