@@ -15,13 +15,13 @@
   "require-dev": {
     "roave/security-advisories": "dev-master",
     "phpunit/phpunit": "^7.0|^8.0",
-    "mockery/mockery": "^1.2",
-    "codedungeon/phpunit-result-printer": "^0.26"
+    "mockery/mockery": "^1.2"
   },
   "suggest": {
     "spatie/phpunit-watcher": "Automatically rerun PHPUnit tests when source code changes (Install globally)",
     "mikey179/vfsStream": "Virtual file system to mock the real file system in unit tests.",
-    "orchestra/testbench": "Laravel Testing Helper for Packages Development"
+    "orchestra/testbench": "Laravel Testing Helper for Packages Development",
+    "codedungeon/phpunit-result-printer": "PHPUnit Pretty Result Printer"
   },
   "autoload": {
     "psr-4": {
