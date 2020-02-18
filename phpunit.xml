@@ -6,6 +6,7 @@
          beStrictAboutOutputDuringTests="true"
          beStrictAboutTodoAnnotatedTests="true"
          colors="true"
+         printerClass="Sempro\PHPUnitPrettyPrinter\PrettyPrinter"
          verbose="true">
     <testsuite name="Lib">
         <directory>tests</directory>
