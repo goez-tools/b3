@@ -16,7 +16,9 @@
     "roave/security-advisories": "dev-master",
     "phpunit/phpunit": "^7.0|^8.0",
     "mockery/mockery": "^1.2",
-    "sempro/phpunit-pretty-print": "^1.2"
+    "sempro/phpunit-pretty-print": "^1.2",
+    "friendsofphp/php-cs-fixer": "^2.16",
+    "php-parallel-lint/php-parallel-lint": "^1.1"
   },
   "suggest": {
     "spatie/phpunit-watcher": "Automatically rerun PHPUnit tests when source code changes (Install globally)",
@@ -32,6 +34,11 @@
     "psr-4": {
       "Tests\\": "tests/"
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "git config --local core.hooksPath .git-hooks/"
+    ]
   },
   "config": {
     "process-timeout": 0
