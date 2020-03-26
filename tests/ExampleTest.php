@@ -33,7 +33,8 @@ class ExampleTest extends TestCase
      */
     public function it_should_spy_a_closure(): void
     {
-        $spy = spy(function () {});
+        $spy = spy(function () {
+        });
 
         call_user_func($spy);
 

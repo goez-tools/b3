@@ -4,5 +4,4 @@ namespace Ns;
 
 class Example
 {
-
 }
